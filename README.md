@@ -8,7 +8,6 @@
 elliptic-modular-lfunctions/
 ├── analysis.ipynb
 ├── module.py
-├── qiita_article.md
 ├── README.md
 └── requirements.txt
 ```
@@ -94,8 +93,3 @@ print(result)
 
 `None` は無限遠点。分数は `F(1, 10)` と入力し、厳密な座標へ `0.1` を渡さない。`central_L` の引数 `N` は導手ではなく項数。各APIの入力、戻り値、制約は解説末尾に一覧を置いた。
 
-## QiitaとGitHubへの配置
-
-このディレクトリの5ファイルを `elliptic-modular-lfunctions` リポジトリのルートへ配置する。`qiita_article.md` の `YOUR_GITHUB_NAME` を実際の所有者名に置き換える。リポジトリ名・ブランチを変えた場合は末尾の `[repo]` と `[notebook]` の参照先も変更する。
-
-Qiita記事には画像ファイルを埋め込まず、数式・説明・計算表を置いている。プロットの箇所はGitHub上の `analysis.ipynb` を参照する。このプロジェクト自体がGitHubへ自動アップロードされることはない。
